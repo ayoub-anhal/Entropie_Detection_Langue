@@ -7,7 +7,7 @@
 
 A sophisticated language detection system using Shannon Entropy analysis and Machine Learning models to identify text in English, French, Italian, and Spanish.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -22,7 +22,7 @@ A sophisticated language detection system using Shannon Entropy analysis and Mac
 - [License](#license)
 - [Contact](#contact)
 
-## 🔭 Overview
+##  Overview
 
 This project implements a language detection system using two complementary approaches:
 1. **Statistical Method**: Shannon Entropy analysis for information-theoretic language classification
@@ -30,7 +30,7 @@ This project implements a language detection system using two complementary appr
 
 The application is packaged as a Streamlit web interface that allows users to input text and receive language predictions using either approach.
 
-## ✨ Features
+##  Features
 
 - **Multi-language Support**: Detects English, French, Italian, and Spanish
 - **Dual Approach**: Compare statistical and machine learning methods
@@ -38,7 +38,7 @@ The application is packaged as a Streamlit web interface that allows users to in
 - **Text Analysis**: Provides entropy values, letter frequencies, and stopword counts
 - **Model Comparison**: Evaluate performance metrics across different classification models
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
                     ┌─────────────────────┐
@@ -70,7 +70,7 @@ The application is packaged as a Streamlit web interface that allows users to in
                       └───────────────────┘
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Python 3.8+**: Core programming language
 - **Data Science Libraries**:
@@ -85,12 +85,11 @@ The application is packaged as a Streamlit web interface that allows users to in
 - **External APIs**:
   - Wikipedia API: Training data collection
 
-## 📦 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/language-detection.git
-cd language-detection
+git clone https://github.com/ayoub-anhal/Entropie_Detection_Langue.git
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -104,7 +103,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Running the Application
 
@@ -137,53 +136,8 @@ ml_detector = MLDetector(model_type="svm")  # Options: "svm", "random_forest", "
 language, probabilities = ml_detector.detect("Text to analyze")
 ```
 
-## 📁 Project Structure
 
-```
-language-detection/
-├── app.py                      # Streamlit application entry point
-├── requirements.txt            # Project dependencies
-├── LICENSE                     # License file
-├── README.md                   # Project documentation
-├── models/                     # Trained machine learning models
-│   ├── svm_model.pkl
-│   ├── random_forest_model.pkl
-│   └── logistic_model.pkl
-├── data/                       # Training and test data
-│   ├── raw/                    # Original Wikipedia articles
-│   │   ├── english/
-│   │   ├── french/
-│   │   ├── italian/
-│   │   └── spanish/
-│   └── processed/              # Preprocessed data
-├── notebooks/                  # Jupyter notebooks for analysis
-│   ├── data_collection.ipynb
-│   ├── data_preprocessing.ipynb
-│   ├── entropy_analysis.ipynb
-│   └── model_training.ipynb
-├── src/                        # Source code
-│   ├── __init__.py
-│   ├── data/                   # Data processing modules
-│   │   ├── __init__.py
-│   │   ├── collector.py        # Wikipedia API scraper
-│   │   └── preprocessor.py     # Text preprocessing functions
-│   ├── features/               # Feature engineering
-│   │   ├── __init__.py
-│   │   └── extractor.py        # Feature extraction for ML models
-│   ├── models/                 # Model definition and training
-│   │   ├── __init__.py
-│   │   ├── entropy_detector.py # Shannon entropy-based detector
-│   │   └── ml_detector.py      # Machine learning models
-│   └── visualization/          # Visualization utilities
-│       ├── __init__.py
-│       └── plots.py            # Plotting functions
-└── tests/                      # Unit and integration tests
-    ├── __init__.py
-    ├── test_entropy.py
-    └── test_ml_models.py
-```
-
-## 🔬 Methodology
+##  Methodology
 
 ### Data Collection
 
@@ -218,7 +172,7 @@ Three classification models were trained and evaluated:
 - **Random Forest**: For robustness and feature importance analysis
 - **Logistic Regression**: As a baseline linear model
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
@@ -227,7 +181,7 @@ Three classification models were trained and evaluated:
 | Random Forest | 93.8% | 93.9% | 93.8% | 93.8% |
 | Logistic Regression | 92.1% | 92.4% | 92.1% | 92.2% |
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -237,12 +191,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  Contact
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-Project Maintainer - [Your Name](mailto:your.email@example.com)
-
-Project Link: [https://github.com/username/language-detection](https://github.com/username/language-detection)
+Project Maintainer - [Your Name](ayoubanhal01@gmail.com)
