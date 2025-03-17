@@ -15,11 +15,9 @@ A sophisticated language detection system using Shannon Entropy analysis and Mac
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Methodology](#methodology)
 - [Model Performance](#model-performance)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ##  Overview
