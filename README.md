@@ -47,24 +47,24 @@ The application is packaged as a Streamlit web interface that allows users to in
                     │   Text Processing   │
                     └─────┬──────────┬────┘
                           │          │
-          ┌───────────────▼──┐    ┌──▼───────────────┐
-          │ Shannon Entropy  │    │ Feature Extraction│
-          │    Analysis      │    │                   │
-          └───────────┬──────┘    └─────────┬─────────┘
+          ┌───────────────▼──┐    ┌──▼─────────────────┐
+          │ Shannon Entropy  │    │ Feature Extraction │
+          │    Analysis      │    │                    │
+          └───────────┬──────┘    └─────────┬──────────┘
                       │                     │
           ┌───────────▼──────┐    ┌─────────▼─────────┐
-          │ Entropy-based    │    │ Machine Learning   │
-          │   Prediction     │    │   Models           │
+          │ Entropy-based    │    │ Machine Learning  │
+          │   Prediction     │    │   Models          │
           └───────────┬──────┘    └─────────┬─────────┘
                       │                     │
                       └─────────┬───────────┘
                                 │
                       ┌─────────▼─────────┐
-                      │ Language Prediction│
+                      │Language Prediction│
                       └─────────┬─────────┘
                                 │
                       ┌─────────▼─────────┐
-                      │ Streamlit UI      │
+                      │   Streamlit UI    │
                       └───────────────────┘
 ```
 
