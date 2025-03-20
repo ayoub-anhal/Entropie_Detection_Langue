@@ -191,4 +191,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ##  Contact
 
-Project Maintainer - [Your Name](ayoubanhal01@gmail.com)
+Project Maintainer - [Ayoub Anhal](ayoubanhal01@gmail.com)
